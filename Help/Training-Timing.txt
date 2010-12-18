@@ -1,0 +1,43 @@
+===========================================================
+Training Timing Mutator for Unreal Tournament 2004
+===========================================================
+Version: 0.2
+Date: 14 Jul 2007
+Author: Roman "S" Vasiliev
+Contact: the-s(at)bk(dot)ru
+
+Description:
+It is my the first mutator :) Mutator is made with a view of training 
+the control of items (That actually in duels). If you have not time to take 
+an item within several seconds after it spawns you are dead.
+In mind, it should force to go on item.
+
+Note!!! Mutator doesn't work on network clients.
+Use only in Practice (Instant Action) or Listen Server.
+
+Installation:
+Extract *.u and *.ucl files from archive to your UT2004/System folder.
+
+Configure:
+
+Dwelling Time is time, after spawn of a item, during which it is necessary
+to take a item (in seconds).
+
+Safe Pickup Distance - if the distance (in UU) between you and a item 
+will be less than this value you will not die even if Dwelling Time has expired 
+(i.e. you as though supervise this item and want to take it hardly later
+that has failed so, that the following respawns of items was came to one time).
+
+Controlled Items - items which we are going to control.
+
+Contact:
+Comments and wishes are welcome...
+IRC: irc.dalnet.ru #unrealscript
+Mail: the-s(at)bk(dot)ru
+
+Changelog:
+* 0.1 (10 Jul 2007)
+- First release
+
+* 0.2 (14 Jul 2007)
+- Some perfomance improves (thanks to _Lynx)
